@@ -1,0 +1,32 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 4 Solution
+ *  Copyright 2021 Amos Luo
+ */
+
+@startuml
+'https://plantuml.com/class-diagram
+
+class app {
+    main()
+    start()
+}
+
+class Controller {
+    new item
+    delete item
+    update item
+    delete all items
+    date
+    input boxes
+    Completed button
+}
+
+class UI{
+    scenebuilder
+    }
+
+app -- Controller
+Controller -- UI
+
+
+@enduml
